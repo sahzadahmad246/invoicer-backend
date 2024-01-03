@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
 // Use CORS middleware before defining routes or other middleware that might need it
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://invoicer-1c55.onrender.com/",
   methods: "GET, POST, PUT, DELETE, HEAD, FETCH",
   credentials: true,
 };
