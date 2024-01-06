@@ -13,9 +13,9 @@ app.use(cookieParser());
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
-// Use CORS middleware before defining routes or other middleware that might need it
+
 const corsOptions = {
-  origin: "https://invoicer-1c55.onrender.com/",
+  origin: "https://invoicer-1c55.onrender.com",
   methods: "GET, POST, PUT, DELETE, HEAD, FETCH",
   credentials: true,
 };
